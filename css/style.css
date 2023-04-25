@@ -1,8 +1,11 @@
 @import "navbar.css";
+@import "./wrapper.css";
+@import "./main-content.css";
+@import "./postres.css";
 :root{
    --black: #202020;
    --white: #ffffff;
-
+    
 }
 
 
