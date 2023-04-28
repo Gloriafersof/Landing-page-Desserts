@@ -1,11 +1,19 @@
 .photos-container .main-foto{
-    background-color: #ff5d5d;
+    background-color: #ffd2d2;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     align-content:center;
-    justify-content:space-evenly ;
+    justify-content:space-around ;
     align-content:center;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: grid;
+   grid-template-columns: repeat(auto-fill, 300px);
+   justify-content: center;
+   gap: 29px;
+
  
 }
+
 

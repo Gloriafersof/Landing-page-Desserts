@@ -2,9 +2,12 @@
 @import "./wrapper.css";
 @import "./main-content.css";
 @import "./postres.css";
+@import "./footer.css";
+
 :root{
    --black: #202020;
    --white: #ffffff;
+   --rosa: #FF597B;
     
 }
 
@@ -14,4 +17,7 @@
 body{
    margin: 0; 
    padding: 0;
+   font-family: var(--font);
+  background-color: var(--rosa);
 }
+
