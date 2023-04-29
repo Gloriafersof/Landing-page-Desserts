@@ -5,4 +5,111 @@
     background-color: var(--black);
     width: 100%;
     padding: 10px;
+    margin-top: 100px;
+    font-size: 12px;
+    display: block;
+  
+  
   }
+   
+  .footer-logo{
+    align-self: start;
+    float: left ;
+  
+  }
+
+  .footer-parrafo{
+      font-size: 20px;
+      color: var(--white);
+      line-height: 25px;
+      color: aliceblue;
+     
+    }
+  
+
+  .redes-sociales ul li{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid beige;
+    width: 75px;
+    height: 75px;
+    float:right;
+    
+  }
+  .redes-sociales ul li .fa{
+    color: aliceblue;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .redes-sociales{
+    align-items: center;
+    display: flex;
+  }
+  
+  .redes-sociales ul li:hover .github{
+    transition: all 0.5s ease;
+    border: 5px solid rgb(255, 0, 0);
+    box-shadow: 0 0 15px rgb(255, 0, 0);
+  }
+  .redes-sociales ul li:hover .fa-github{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+    transition: all 0,5s ease;
+  }
+
+  .redes-sociales ul li:hover .facebook{
+    transition: all 0.5s ease;
+    border: 5px solid rgb(255, 0, 30);
+    box-shadow: 0 0 15px rgb(255, 0, 17);
+  }
+  .redes-sociales ul li:hover .fa-facebook{
+
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+    transition: all 0,5s ease;
+  }
+
+  .redes-sociales ul li:hover .twitter{
+    transition: all 0.5s ease;
+    border: 5px solid rgb(255, 0, 30);
+    box-shadow: 0 0 15px rgb(255, 0, 17);
+  }
+  .redes-sociales ul li:hover .fa-twitter{
+
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+    transition: all 0,5s ease;
+  }
+
+  .redes-sociales ul li:hover .instagram{
+    transition: all 0.5s ease;
+    border: 5px solid rgb(255, 0, 30);
+    box-shadow: 0 0 15px rgb(255, 0, 17);
+  }
+  .redes-sociales ul li:hover .fa-instagram{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+    transition: all 0,5s ease;
+  }
+  @media (min-width: 1024px) {
+    .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--black);
+    width: 100%;
+    height: 150px;
+    }
+
+  .footer-logo{
+    display: block;
+    
+  }
+    }
+    
+

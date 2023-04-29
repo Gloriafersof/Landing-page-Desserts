@@ -22,6 +22,7 @@
    width: 520px;
    display: flex;
    padding: 5px 0;
+   margin-left: 80px
    
 }
 
@@ -33,13 +34,14 @@
     align-items: center;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 12px;
 }
 
 .imagen{
     width: 100%;
     height: auto;
     margin-top: 10px;
-    
     
 }
 
@@ -51,6 +53,7 @@
 .foto{
     margin-top: 35px;
     border-radius: 90px;
+    margin-left: 30px;
   }
 
   .Tarta{
@@ -67,10 +70,11 @@
   .title-desserts{
     border:10ps;
     background-color: rgb(176, 177, 177);
-    border-radius: 30px;
+  
     text-decoration: none;
     color: var(--white);
     margin-top: 0%;
     margin-left: 0px ;
+    text-align: center;
   }
   
