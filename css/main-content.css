@@ -12,9 +12,8 @@
 .section-title{
     font-size: 40px;
     margin-right: 20px;
-    display: flex;
-    margin-left: 40px;
     color: var(--black);
+    display: flex;
 }
 
 .section-title h1.title{
@@ -29,13 +28,13 @@
 .section-paragraph{
     height: 350px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10px;
     margin-right: 12px;
+
 }
 
 .imagen{
@@ -55,7 +54,7 @@
     border-radius: 90px;
     margin-left: 30px;
   }
-
+  
   .Tarta{
     background-color: rgb(255, 239, 241);
     padding: 15px 35px;
@@ -63,9 +62,10 @@
     border-radius: 15px;
     margin-left: 50px;
   }
-
+  
   .fotos{
     border-radius: 25px;
+    border: 3px solid var(--black);
   }
   .title-desserts{
     border:10ps;
