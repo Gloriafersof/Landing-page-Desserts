@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Landing page Desserts</title>
+     <script src="https://kit.fontawesome.com/b159f98088.js" crossorigin="anonymous"></script>
+     <title>Landing page Desserts</title>
 </head>
 <body>
     <header class="header">
@@ -22,40 +23,55 @@
     <li class="nav-ul-li"><a href="#">Contact</a></li>
         </ul>
     </nav> 
-    <div class="header-menu">
-        <img src="" alt="">
+    <div class="header-menu" id="menu-hambur">
+        <i class="fa-solid fa-bars fa-beat"></i>
+        
+        
     </div>
+    <div class="options close" id="options">
+        <ul>
+    
+            <li class="nav-ul-li"><a href="#start">About</a>
+            </li>
+            <li class="nav-ul-li"><a href="#">Projects</a></li>
+            <li class="nav-ul-li"><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+       
+
+
     </header>
     <div class="wrapper">
         <main class="main-content">
-        <section class="section-description">
-            <div class="imagen">
-                <img src="img/banner.jpeg" alt="imagen">
+            <section class="section-description">
+                <div class="imagen">
+                    <img src="img/banner.jpeg" alt="imagen">
+                </div>
             </section>
-        </div>
             <div class="section-title">
-            <h1 class="title">
-                    Gloria Fernandes @imgloriafer
-             </h1>
-             <div class="section-paragraph" id="start">
-                 <p>
-                     Mi nombre es Gloria Fernandes y soy amante a descubrir y probar cosas nuevas acerca de la tecnología para así ser cada día mejor en esta área. A demás soy emprendedora y amante a la cocina cuando de postres se habla por esta razón decidí mostrarles un poco a través de mi proyecto acerca de los postres que me gusta hacer.
-                 </p>
-            </div>
+                <h1 class="title">
+                        Gloria Fernandes @imgloriafer
+                </h1>
+                <div class="section-paragraph" id="start">
+                    <p>
+                        Mi nombre es Gloria Fernandes y soy amante a descubrir y probar cosas nuevas acerca de la tecnología para así ser cada día mejor en esta área. A demás soy emprendedora y amante a la cocina cuando de postres se habla por esta razón decidí mostrarles un poco a través de mi proyecto acerca de los postres que me gusta hacer.
+                    </p>
+                </div>
 
             </div>
-            <section class="section photos">
+            <section class="section-photos">
                 <div class="photos-container">
                     <div class="Section-title">
                         <h2 class="title-desserts"> 
                             All desserts
                              </h2>
-                        </div>
+                    </div>
                     <div class="main-foto">
                         
                          <div class="foto">
                              <img class="fotos" src="img/imagen dessert.jpg" alt="Postre 1" width="290px" height="270px">
-                        <button class="Tarta">Tarta de fresas</button>
+                            <button class="Tarta">Tarta de fresas</button>
                          </div>
                          <div class="foto">
                              <img class="fotos" src="imagen2.jpg" alt="Postre 2"  width="290px" height="270px">
@@ -89,9 +105,9 @@
                              <img class="fotos" src="img/imagen9.jpg" alt="Postre 9" width="290px" height="270px">
                              <button class="Tarta">Red Velvet</button>
                             
-                            </div>
-                         </div>
-                     </div>
+                        </div>
+                    </div>
+
                  </div>
             </section>
         </main>
@@ -120,5 +136,6 @@
         </div>
      </div>
     </footer>
+    <script src="./src/nose.js"></script>
 </body>
 </html>

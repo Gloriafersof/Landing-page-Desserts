@@ -3,11 +3,12 @@
     justify-content: space-between;
     background-color: var(--black);
     outline: 1px solid;
+    width: 100%;
 }
 
-/* .header nav {
+.header nav {
     display: none;
-} */
+}
 
 .header-menu{
     display: flex;
@@ -54,7 +55,7 @@
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:437px) {
     .header{
         display: flex;
         justify-content: space-between;
@@ -87,4 +88,16 @@
         color: var(--white);
 
     }
-}
+
+
+    }
+
+    .options.close{
+        display:none;
+
+    }
+
+    .options.show{
+        display: block;
+    }
+

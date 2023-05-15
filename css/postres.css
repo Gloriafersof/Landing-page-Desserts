@@ -1,10 +1,8 @@
 .photos-container .main-foto{
     background-color: #ffd2d2;
-    display: flexs;
-    justify-content:space-around ;
     align-content:center;
-    margin-left: 140px;
-    margin-right: 140px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
     display: grid;
    grid-template-columns: repeat(auto-fill, 370px);
    justify-content: center;

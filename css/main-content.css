@@ -53,6 +53,7 @@
     margin-top: 35px;
     border-radius: 90px;
     margin-left: 30px;
+  
   }
   
   .Tarta{
@@ -63,10 +64,14 @@
     margin-left: 50px;
   }
   
-  .fotos{
-    border-radius: 25px;
-    border: 3px solid var(--black);
-  }
+  .section-photos{
+   width: 100%;
+  } 
+
+.photos-container{
+  width: inherit;
+}
+
   .title-desserts{
     border:10ps;
     background-color: rgb(176, 177, 177);
@@ -77,4 +82,30 @@
     margin-left: 0px ;
     text-align: center;
   }
+
+  @media (max-width:390px){
+    .section-description{
+
+      max-width: 300px;
+    }
+
+    .section-title h1.title{
+      border-right: 5px solid var(--black);
+     width: 250px;
+     display: flex;
+     padding: 5px 0;
+     margin-left: 80px;
+     font-size: 10px;
+     flex-wrap: wrap;
+     
+     
+  }
+  
+  }
+  .fotos{
+    border-radius: 15px;
+    
+  }
+    
+  
   
