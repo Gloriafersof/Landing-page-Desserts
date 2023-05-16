@@ -87,17 +87,24 @@
         text-decoration: none;
         color: var(--white);
 
+    
+
     }
 
+    .section-paragraph{
+        display: flex;
+    }
 
     }
 
     .options.close{
+
         display:none;
-
+        
     }
-
+      
     .options.show{
         display: block;
     }
 
+    
