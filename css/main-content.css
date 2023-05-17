@@ -83,7 +83,7 @@
     text-align: center;
   }
 
-  @media (max-width:420px){
+  @media (max-width:520px){
     .section-description{
       display: flex;
       max-width: 300px;
@@ -99,6 +99,13 @@
      margin-left: 0px;
      
      
+  }
+  .imagen img{
+     width: 115%;
+    height: auto;
+    margin-top: 10px;
+    
+
   }
   
   
