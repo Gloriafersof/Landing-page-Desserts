@@ -31,7 +31,10 @@
     .header-logo{
     display: flex;
     align-items: center;
+    
     }
+
+    
     .header nav{
         display: flex;
         align-items: center;
@@ -55,7 +58,7 @@
     }
 }
 
-@media(max-width:437px) {
+@media(max-width:370px) {
     .header{
         display: flex;
         justify-content: space-between;
@@ -80,8 +83,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .header-menu{
-        display: none;
+
+        
     }
     .header nav li > a {
         text-decoration: none;
@@ -91,11 +94,14 @@
 
     }
 
+
     .section-paragraph{
         display: flex;
     }
-
+    .header-menu:hover .options.close.show{
+        transition: all s ease-out;
     }
+    
 
     .options.close{
 

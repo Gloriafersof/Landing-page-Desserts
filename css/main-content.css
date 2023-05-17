@@ -83,7 +83,7 @@
     text-align: center;
   }
 
-  @media (max-width:437px){
+  @media (max-width:420px){
     .section-description{
       display: flex;
       max-width: 300px;
