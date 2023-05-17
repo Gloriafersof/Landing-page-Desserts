@@ -6,7 +6,7 @@
 
  
 
-@media (max-width:520px) {
+@media (max-width:781px) {
     .header{
         display: flex;
         justify-content: space-between;
@@ -48,7 +48,7 @@
   
     }
 
-    @media (min-width:520px) {
+    @media (min-width:782px) {
       .header{
           display: flex;
           justify-content: space-between;
