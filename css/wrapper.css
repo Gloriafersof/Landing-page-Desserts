@@ -8,11 +8,13 @@
 
 @media (max-width:781px) {
     .header{
-        display: flex;
+        display:;
         justify-content: space-between;
         background-color: var(--black);
         height:100px ;
         padding:0 15px ;
+       
+       
     }
     .header-logo{
     display: flex;
@@ -53,7 +55,7 @@
           display: flex;
           justify-content: space-between;
           background-color: var(--black);
-          height:100px ;
+          height:100% ;
           padding:0 15px ;
       }
       .header-logo{

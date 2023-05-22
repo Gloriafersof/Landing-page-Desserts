@@ -1,6 +1,6 @@
 const button = document.getElementById("menu-hambur");
 const options= document.getElementById("options")
-console.log(button)
+// console.log(button)
 
 button.addEventListener("click", () => {
     button.classList.toggle("close");
@@ -13,6 +13,6 @@ options.addEventListener("click", e =>{
         options.classList.remove("show");
         button.classList.remove("close")
 
+        console.log(nose.id)
     }
 })
-
